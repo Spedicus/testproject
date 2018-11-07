@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+#box {
+	height: 200px;
+	width: 200px;
+	background-color: #000000;
+	position: relative;
+	border: solid;
+	border-color: #00ffff;
+}
+
+/* ------------------------------------------------------ Button Style */
+
+button {
+	background-color: #000000;
+	font-size: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 45%;
+	border: 3px solid #00ffff;
+	color: #ffffff;
+}
+
+button {
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+}
+
+button:hover {
+    background-color: #00ffff; 
+    color: #000000;
+}
