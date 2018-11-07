@@ -1,0 +1,27 @@
+/* CSS Document */
+/* CSS Document */
+
+#header{
+	text-align: center;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-size: 17px
+}
+
+ button{
+	width: 80px; 
+	margin: 10px;
+	text-align: center;
+	border: none;
+	background-color: #64A5F6;
+	height: 50px;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-decoration: underline;
+	
+}
+
+#sqaure{
+	
+	background-color:#ED4D50;
+	height: 200px;
+	width: 200px;
+}
