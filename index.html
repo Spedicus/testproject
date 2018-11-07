@@ -1,14 +1,26 @@
-<style>
-  #circle{
-    background-color: blue;
-    height: 100px;
-    width: 50px;
-    border-radius: 90%;
-    
-  }
-</style>
 
-<h1>Shark tank</h1>
-<center>
-<div id="circle"></div>
-</center>
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Lab 4</title>
+<link href="Base.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="lab4.css" type="text/css">
+<script src="Lab4.js"></script>
+</head>
+
+<body>
+	<div id="htag">
+		<h1>Job Nabong</h1>
+		<h2>Lab #4</h2>
+		<h3>Web Client Programming</h3>
+	</div><br>
+	<img src="pictures/thanoscar.jpg" alt="A picture of the Thanos Car" width="500px" id="mainPic" onClick="normal()">
+	<br>
+	<button type="button" onClick="thanosCar.rush()">Thanos Car Rush!</button>
+	<button type="button" onClick="thanosCar.snap()">Thanos Car Snap!</button>
+	<button type="button" onClick="thanosCar.block()">Thanos Car Block!</button>
+	<p id="result"></p>
+</body>
+</html>
+

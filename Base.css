@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-image: url("backgrounddef.jpg");
+	background-repeat: repeat;
+	font-family: Futura, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	
+}
+
+#htag {
+	background-color: #D2D2D2;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+	text-shadow: 2px 2px black;
+	color: #FFFFFF;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+p {
+	background-color: #D2D2D2;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-image: url("backgrounddef.jpg");
+    color: black;
+	transition: all 0.15s;
+}
+
+#index {
+	background-color: black;
+	border: 0;
+}
+
+#index a {
+	display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#index a:hover {
+	background-image: url("backgrounddef.jpg");
+    color: black;
+	transition: all 0.15s;
+}
+
+#blurb {
+	margin-left: 30%;
+	margin-right: 30%;
+}
